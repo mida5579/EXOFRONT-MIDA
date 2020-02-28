@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #edeef0;
+}
+/* Fisrt */
+
+.container-fluid
+{
+    background: #292f3b;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+}
+
+.my__icon
+{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon
+{
+  width: 60px;
+  height: 60px;
+}
+
+ul li
+{
+   list-style: none;
+}
+
+.image
+{
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+}
+
+.button
+{
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: #983296;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+ .button:hover
+{
+    background-color: rgb(145, 14, 14);
+}
+
+.button:focus
+{
+outline: none;
+}
+
+/* icon two */
+#icon_two 
+{
+    height: 50px;
+    padding: 20px;  
+}
+/* second */
+
+.second
+{
+    height: 300px;
+    margin-top: 30px;
+}
+
+.fisrt-row
+{
+    width: 100%;
+}
+
+.col-lg-3
+{
+    height: 60px;
+    align-items: center;
+    margin-left: 15px;
+    background-color: #fff;
+    box-shadow: 3px 8px 33px -6px rgba(0,0,0,0.21);
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.m-description-one
+{
+    flex: 1;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-one{
+    height: 30px;
+    width: 30px;
+}
+
+.description-one__illustration{
+    height: 60px;
+    width: 60px;
+}
+
+.m-img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.col-md-6
+{
+    margin-top: 10px;
+}
